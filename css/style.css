@@ -1245,7 +1245,7 @@ body {
 @media (max-width: 600px) {
   /* Adjust title font size and margin for mobile */
   .title {
-      font-size: 40px;
+      font-size: 35px;
       margin-top: 20px;
   }
 }
