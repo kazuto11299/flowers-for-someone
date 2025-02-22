@@ -238,7 +238,7 @@ body {
 .flower__line {
   height: 55vmin;
   width: 1.5vmin;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent, rgba(255, 255, 255, 0.2)), linear-gradient(to top, transparent 10%, #fff, #fff);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent, rgba(255, 255, 255, 0.2)), linear-gradient(to top, transparent 10%, #228B22, #32CD32);
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
   animation: grow-flower-tree 4s backwards;
 }
@@ -1214,15 +1214,15 @@ body {
 }
 
 .flower--1 .flower__leaf {
-    background-color: #FFFF00;
+    background-color: #FFC0CB;
     background-image: linear-gradient(to top, #FFD700, #FFFF00);
 }
 .flower--2 .flower__leaf {
-    background-color: #FF0000;
+    background-color: #FFFF00;
     background-image: linear-gradient(to top, #DC143C, #FF0000);
 }
 .flower--3 .flower__leaf {
-    background-color: #FFC0CB;
+    background-color: #FF0000;
     background-image: linear-gradient(to top, #FF69B4, #FFC0CB);
 }
 
