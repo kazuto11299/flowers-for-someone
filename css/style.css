@@ -1267,14 +1267,13 @@ body {
 
 /* Adjust the flower centers and add a lighter rim for each flower */
 
-/* Make the ::after pseudo-element (the actual center) a circle */
-.flower__white-circle::after {
-  width: 4vmin;
-  height: 4vmin;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
+/* Yellow flower (right): Light yellow rim with dark yellow center */
+.flower--1 .flower__white-circle {
+  background-color: #ffffcc; /* Light yellow for the rim */
+}
+
+.flower--1 .flower__white-circle::after {
+  background: #DAA520; /* Golden rod for the center */
 }
 
 /* Red flower (left): Light red rim with dark red center */
@@ -1295,21 +1294,7 @@ body {
   background: #C71585; /* Dark pink for the center */
 }
 
-/* Yellow flower (right): Light yellow rim with dark yellow center */
-.flower--1 .flower__white-circle {
-  background-color: #ffffcc; /* Light yellow for the rim */
-}
-
-.flower--1 .flower__white-circle::after {
-  background: #DAA520; /* Golden rod for the center */
-}
-
 @media (max-width: 600px) {
-  /* Scale down the entire flower arrangement on mobile */
-  .flowers {
-      transform: scale(0.6);
-  }
-
   /* Adjust title font size and margin for mobile */
   .title {
       font-size: 40px;
