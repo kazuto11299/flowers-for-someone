@@ -1226,4 +1226,94 @@ body {
     background-image: linear-gradient(to top, #DC143C, #FF0000);
 }
 
+/* Adjust the flower centers and add a lighter rim for each flower */
+
+/* Make the ::after pseudo-element (the actual center) a circle */
+.flower__white-circle::after {
+  width: 4vmin;
+  height: 4vmin;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/* Red flower (left): Light red rim with dark red center */
+.flower--1 .flower__white-circle {
+  background-color: #ffcccc; /* Light red for the rim */
+}
+
+.flower--1 .flower__white-circle::after {
+  background: #8B0000; /* Dark red for the center */
+}
+
+/* Pink flower (middle): Light pink rim with dark pink center */
+.flower--2 .flower__white-circle {
+  background-color: #ffe6e6; /* Light pink for the rim */
+}
+
+.flower--2 .flower__white-circle::after {
+  background: #C71585; /* Dark pink for the center */
+}
+
+/* Yellow flower (right): Light yellow rim with dark yellow center */
+.flower--3 .flower__white-circle {
+  background-color: #ffffcc; /* Light yellow for the rim */
+}
+
+.flower--3 .flower__white-circle::after {
+  background: #DAA520; /* Golden rod for the center */
+}
+
+/* Adjust the flower centers and add a lighter rim for each flower */
+
+/* Make the ::after pseudo-element (the actual center) a circle */
+.flower__white-circle::after {
+  width: 4vmin;
+  height: 4vmin;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/* Red flower (left): Light red rim with dark red center */
+.flower--2 .flower__white-circle {
+  background-color: #ffcccc; /* Light red for the rim */
+}
+
+.flower--2 .flower__white-circle::after {
+  background: #8B0000; /* Dark red for the center */
+}
+
+/* Pink flower (middle): Light pink rim with dark pink center */
+.flower--3 .flower__white-circle {
+  background-color: #ffe6e6; /* Light pink for the rim */
+}
+
+.flower--3 .flower__white-circle::after {
+  background: #C71585; /* Dark pink for the center */
+}
+
+/* Yellow flower (right): Light yellow rim with dark yellow center */
+.flower--1 .flower__white-circle {
+  background-color: #ffffcc; /* Light yellow for the rim */
+}
+
+.flower--1 .flower__white-circle::after {
+  background: #DAA520; /* Golden rod for the center */
+}
+
+@media (max-width: 600px) {
+  /* Scale down the entire flower arrangement on mobile */
+  .flowers {
+      transform: scale(0.6);
+  }
+
+  /* Adjust title font size and margin for mobile */
+  .title {
+      font-size: 40px;
+      margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
