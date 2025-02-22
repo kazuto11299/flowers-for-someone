@@ -1213,4 +1213,17 @@ body {
   animation-play-state: paused !important;
 }
 
+.flower--1 .flower__leaf {
+    background-color: #FFFF00;
+    background-image: linear-gradient(to top, #FFD700, #FFFF00);
+}
+.flower--2 .flower__leaf {
+    background-color: #FF0000;
+    background-image: linear-gradient(to top, #DC143C, #FF0000);
+}
+.flower--3 .flower__leaf {
+    background-color: #FFC0CB;
+    background-image: linear-gradient(to top, #FF69B4, #FFC0CB);
+}
+
 /*# sourceMappingURL=style.css.map */
