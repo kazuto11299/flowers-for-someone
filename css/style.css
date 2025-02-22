@@ -168,7 +168,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #fff;
+  background-color: #228B22;
   filter: blur(10vmin);
 }
 
@@ -594,7 +594,7 @@ body {
   border-top-left-radius: 100%;
   border-left: 2vmin solid #228B22;
   background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
-  -webkit-mask-image: linear-gradient(to top, transparent 30%, #fff 60%);
+  -webkit-mask-image: linear-gradient(to top, transparent 30%, #228B22 60%);
 }
 
 .flower__g-right--1 {
@@ -662,7 +662,7 @@ body {
 .flower__g-front__line {
   width: 0.3vmin;
   height: 20vmin;
-  background-image: linear-gradient(to top, transparent, #fff, transparent 100%);
+  background-image: linear-gradient(to top, transparent, #228B22, transparent 100%);
   position: relative;
 }
 
@@ -798,7 +798,7 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #fff;
+  border-left: 2vmin solid #228B22;
   -webkit-mask-image: linear-gradient(to top, transparent 25%, #fff 50%);
   position: relative;
   z-index: 1;
