@@ -1,5 +1,5 @@
 const title = document.querySelector('.title');
-const text = 'I Have A Surprise For U'; // Adjust case as needed
+const text = 'I Have a Surprise for You'; // Adjust case as needed
 const words = text.split(' ');
 
 words.forEach((word, wordIndex) => {
