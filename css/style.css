@@ -232,6 +232,7 @@ body {
   width: 60%;
   height: 60%;
   border-radius: inherit;
+  background: #8B4513
   background-image: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(157.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), linear-gradient(90deg, rgb(255, 235, 18), rgb(255, 206, 0));
 }
 
@@ -1226,72 +1227,19 @@ body {
     background-image: linear-gradient(to top, #DC143C, #FF0000);
 }
 
-/* Adjust the flower centers and add a lighter rim for each flower */
-
-/* Make the ::after pseudo-element (the actual center) a circle */
-.flower__white-circle::after {
-  width: 4vmin;
-  height: 4vmin;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-}
-
-/* Red flower (left): Light red rim with dark red center */
+/* Red flower (left): Light red rim */
 .flower--1 .flower__white-circle {
-  background-color: #ffcccc; /* Light red for the rim */
+  background-color: #ffcccc; /* Light red rim */
 }
 
-.flower--1 .flower__white-circle::after {
-  background: #8B0000; /* Dark red for the center */
-}
-
-/* Pink flower (middle): Light pink rim with dark pink center */
+/* Pink flower (middle): Light pink rim */
 .flower--2 .flower__white-circle {
-  background-color: #ffe6e6; /* Light pink for the rim */
+  background-color: #ffe6e6; /* Light pink rim */
 }
 
-.flower--2 .flower__white-circle::after {
-  background: #C71585; /* Dark pink for the center */
-}
-
-/* Yellow flower (right): Light yellow rim with dark yellow center */
+/* Yellow flower (right): Light yellow rim */
 .flower--3 .flower__white-circle {
-  background-color: #ffffcc; /* Light yellow for the rim */
-}
-
-.flower--3 .flower__white-circle::after {
-  background: #DAA520; /* Golden rod for the center */
-}
-
-/* Adjust the flower centers and add a lighter rim for each flower */
-
-/* Yellow flower (right): Light yellow rim with dark yellow center */
-.flower--1 .flower__white-circle {
-  background-color: #ffffcc; /* Light yellow for the rim */
-}
-
-.flower--1 .flower__white-circle::after {
-  background: #DAA520; /* Golden rod for the center */
-}
-
-/* Red flower (left): Light red rim with dark red center */
-.flower--2 .flower__white-circle {
-  background-color: #ffcccc; /* Light red for the rim */
-}
-
-.flower--2 .flower__white-circle::after {
-  background: #8B0000; /* Dark red for the center */
-}
-
-/* Pink flower (middle): Light pink rim with dark pink center */
-.flower--3 .flower__white-circle {
-  background-color: #ffe6e6; /* Light pink for the rim */
-}
-
-.flower--3 .flower__white-circle::after {
-  background: #C71585; /* Dark pink for the center */
+  background-color: #ffffcc; /* Light yellow rim */
 }
 
 @media (max-width: 600px) {
