@@ -57,7 +57,7 @@
 }
 
 /* Terapkan animasi dengan delay */
-.title span {
+.title span span {
   opacity: 0;
   animation: typing 1s ease forwards;
   animation-delay: var(--delay);
@@ -112,7 +112,7 @@ a {
 
 @media (max-width: 600px) {
   .title {
-      font-size: 40px;
+      font-size: 24px;
   }
 
   .btn {
