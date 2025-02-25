@@ -662,7 +662,7 @@ body {
 .flower__g-front__line {
   width: 0.3vmin;
   height: 20vmin;
-  background-image: linear-gradient(to top, transparent, #fff, transparent 100%);
+  background-image: linear-gradient(to top, transparent, #228B22, transparent 100%);
   position: relative;
 }
 
@@ -1226,4 +1226,9 @@ body {
     background-image: linear-gradient(to top, #DC143C, #FF0000);
 }
 
+
+/* Hide all leaves and grass elements */
+.flower__line__leaf {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
