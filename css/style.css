@@ -168,7 +168,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #fff;
+  background-color: #228B22;
   filter: blur(10vmin);
 }
 
@@ -220,7 +220,7 @@ body {
   width: 9vmin;
   height: 4vmin;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .flower__white-circle::after {
@@ -798,7 +798,7 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #fff;
+  border-left: 2vmin solid #228B22;
   -webkit-mask-image: linear-gradient(to top, transparent 25%, #fff 50%);
   position: relative;
   z-index: 1;
