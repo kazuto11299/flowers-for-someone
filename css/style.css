@@ -168,12 +168,12 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #228B22;
+  background-color: #fff;
   filter: blur(10vmin);
 }
 
 .flower__leaf {
-  /* position: absolute;
+  position: absolute;
   bottom: 0;
   left: 50%;
   width: 8vmin;
@@ -183,42 +183,19 @@ body {
   background-image: linear-gradient(to top, #228B22, #32CD32);
   transform-origin: bottom center;
   opacity: 0.9;
-  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5); */
-  width: 3vmin; /* Narrower width for a slim, elongated look */
-  height: 14vmin; /* Taller height to extend the petal length */
-  border-top-left-radius: 50% 150%; /* Sharp, pointed tip */
-  border-top-right-radius: 50% 150%; /* Symmetrical pointed tip */
-  border-bottom-left-radius: 0; /* Straight base */
-  border-bottom-right-radius: 0; /* Straight base */
-  transform-origin: bottom center; /* Ensures petals rotate from the base */
-  box-shadow: 0 0 1vmin rgba(0, 0, 0, 0.3); /* Adds subtle depth */
-}
-
-.flower__leaf::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: inherit; /* Inherits the petal's background color and gradient */
-  border-top-left-radius: 50% 150%; /* Matches the main petal's shape */
-  border-top-right-radius: 50% 150%;
-  transform: rotate(10deg) translateX(-1vmin); /* Slight rotation and offset for overlap */
-  z-index: -1; /* Places the pseudo-element behind the main petal */
+  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
 }
 
 .flower__leaf--1 {
-  /* transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg); */
-  transform: translate(-50%, 0) rotateY(40deg) rotateX(-50deg);
+  transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
 }
 
 .flower__leaf--2 {
-  /* transform: translate(-50%, -4%) rotateX(40deg); */
-  transform: translate(-50%, 0) rotateY(40deg) rotateX(-50deg);
+  transform: translate(-50%, -4%) rotateX(40deg);
 }
 
 .flower__leaf--3 {
-  /* transform: translate(-90%, 0%) rotateY(45deg) rotateX(50deg); */
-  transform: translate(-50%, 0) rotateY(40deg) rotateX(-50deg);
+  transform: translate(-90%, 0%) rotateY(45deg) rotateX(50deg);
 }
 
 .flower__leaf--4 {
@@ -226,8 +203,7 @@ body {
   height: 8vmin;
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
-  /* transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg); */
-  transform: translate(-50%, 0) rotateY(40deg) rotateX(-50deg);
+  transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
   background-image: linear-gradient(to top, rgba(255, 2555, 255, 0.4), #228B22);
   z-index: 1;
   opacity: 0.8;
@@ -256,7 +232,6 @@ body {
   width: 60%;
   height: 60%;
   border-radius: inherit;
-  background: #8B4513
   background-image: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(157.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), linear-gradient(90deg, rgb(255, 235, 18), rgb(255, 206, 0));
 }
 
@@ -619,7 +594,7 @@ body {
   border-top-left-radius: 100%;
   border-left: 2vmin solid #228B22;
   background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
-  -webkit-mask-image: linear-gradient(to top, transparent 30%, #228B22 60%);
+  -webkit-mask-image: linear-gradient(to top, transparent 30%, #fff 60%);
 }
 
 .flower__g-right--1 {
@@ -687,7 +662,7 @@ body {
 .flower__g-front__line {
   width: 0.3vmin;
   height: 20vmin;
-  background-image: linear-gradient(to top, transparent, #228B22, transparent 100%);
+  background-image: linear-gradient(to top, transparent, #fff, transparent 100%);
   position: relative;
 }
 
@@ -823,7 +798,7 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #228B22;
+  border-left: 2vmin solid #fff;
   -webkit-mask-image: linear-gradient(to top, transparent 25%, #fff 50%);
   position: relative;
   z-index: 1;
@@ -1251,236 +1226,4 @@ body {
     background-image: linear-gradient(to top, #DC143C, #FF0000);
 }
 
-/* Red flower (left): Light red rim */
-.flower--1 .flower__white-circle {
-  background-color: #ffcccc; /* Light red rim */
-}
-
-/* Pink flower (middle): Light pink rim */
-.flower--2 .flower__white-circle {
-  background-color: #ffe6e6; /* Light pink rim */
-}
-
-/* Yellow flower (right): Light yellow rim */
-.flower--3 .flower__white-circle {
-  background-color: #ffffcc; /* Light yellow rim */
-}
-
-@media (max-width: 600px) {
-  /* Adjust title font size and margin for mobile */
-  .title {
-      font-size: 35px;
-      margin-top: 20px;
-  }
-}
-
-/* Hide all leaves and grass elements */
-.flower__line__leaf,
-.flower__grass,
-.flower__g-long,
-.flower__g-right .leaf,
-.flower__g-front__leaf,
-.flower__g-fr__leaf {
-  display: none;
-}
-
-.flower__white-circle {
-  width: 5vmin; /* Slightly larger than the original 4vmin */
-  height: 5vmin;
-  /* Existing styles like border and shadow remain */
-}
-
-.flower--1 .flower__white-circle::after {
-  background: #FFD700; /* Yellow center for red flower */
-}
-
-.flower--2 .flower__white-circle::after {
-  background: #FFD700; /* Yellow center for pink flower */
-}
-
-.flower--3 .flower__white-circle::after {
-  background: #8B4513; /* Brown center for yellow flower */
-}
-
-.flower--1 .flower__leaf {
-  background-color: #FF0000;
-  background-image: linear-gradient(to top, #DC143C, #FF0000);
-}
-
-.flower--2 .flower__leaf {
-  background-color: #FFC0CB;
-  background-image: linear-gradient(to top, #FF69B4, #FFC0CB);
-}
-
-.flower--3 .flower__leaf {
-  background-color: #FFFF00;
-  background-image: linear-gradient(to top, #FFD700, #FFFF00);
-}
 /*# sourceMappingURL=style.css.map */
-
-/* Gerbera Flower Modifications */
-
-/* Common gerbera petal styles - elongated with pointed tips */
-.flower__leaf {
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; /* More elongated shape */
-  height: 14vmin; /* Longer petals */
-  width: 6vmin; /* Slightly narrower */
-  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.7); /* Inner glow */
-}
-
-/* Add more petals for all flowers */
-.flower__leafs::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 8vmin;
-  height: 14vmin;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  transform-origin: bottom center;
-  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.7);
-}
-
-/* Inner layer petals (shorter) */
-.flower__leafs::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 7vmin;
-  height: 12vmin;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  transform-origin: bottom center;
-  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.7);
-  z-index: 2;
-}
-
-/* Yellow gerbera (left flower) */
-.flower--1 .flower__leaf {
-  background-color: #FFEF00; /* Bright yellow */
-  background-image: linear-gradient(to top, #FFD700, #FFEF00); /* Gold to yellow gradient */
-}
-
-.flower--1 .flower__leafs::before {
-  background-color: #FFEF00;
-  background-image: linear-gradient(to top, #FFD700, #FFEF00);
-  transform: translate(-90%, 1%) rotate(65deg);
-}
-
-.flower--1 .flower__leafs::after {
-  background-color: #FFE000;
-  background-image: linear-gradient(to top, #FFD700, #FFE000);
-  transform: translate(-50%, 1%) rotate(25deg);
-}
-
-/* Red gerbera (middle flower) */
-.flower--2 .flower__leaf {
-  background-color: #FF0000; /* Bright red */
-  background-image: linear-gradient(to top, #D10000, #FF0000); /* Darker red to red gradient */
-}
-
-.flower--2 .flower__leafs::before {
-  background-color: #FF0000;
-  background-image: linear-gradient(to top, #D10000, #FF0000);
-  transform: translate(-90%, 1%) rotate(65deg);
-}
-
-.flower--2 .flower__leafs::after {
-  background-color: #FF0000;
-  background-image: linear-gradient(to top, #D10000, #FF0000);
-  transform: translate(-50%, 1%) rotate(25deg);
-}
-
-/* Pink gerbera (right flower) */
-.flower--3 .flower__leaf {
-  background-color: #FF9EBB; /* Light pink */
-  background-image: linear-gradient(to top, #FF69B4, #FF9EBB); /* Hot pink to light pink gradient */
-}
-
-.flower--3 .flower__leafs::before {
-  background-color: #FF9EBB;
-  background-image: linear-gradient(to top, #FF69B4, #FF9EBB);
-  transform: translate(-90%, 1%) rotate(65deg);
-}
-
-.flower--3 .flower__leafs::after {
-  background-color: #FF9EBB;
-  background-image: linear-gradient(to top, #FF69B4, #FF9EBB);
-  transform: translate(-50%, 1%) rotate(25deg);
-}
-
-/* Additional petals for fuller appearance */
-.flower__leaf--5 {
-  transform: translate(-50%, 2%) rotate(140deg);
-  z-index: 1;
-}
-
-.flower__leaf--6 {
-  transform: translate(-50%, 2%) rotate(180deg);
-  z-index: 1;
-}
-
-.flower__leaf--7 {
-  transform: translate(-50%, 2%) rotate(220deg);
-  z-index: 1;
-}
-
-.flower__leaf--8 {
-  transform: translate(-50%, 2%) rotate(260deg);
-  z-index: 0;
-}
-
-/* Center styling for all gerberas */
-.flower__white-circle {
-  width: 12vmin;
-  height: 12vmin;
-  border-radius: 50%;
-  position: absolute;
-  left: -4.5vmin;
-  top: -5vmin;
-  z-index: 10;
-}
-
-/* Yellow gerbera center */
-.flower--1 .flower__white-circle {
-  background-color: #4A2C0B; /* Brown center */
-  box-shadow: 0 0 0 1vmin #B8860B; /* Darker yellow rim */
-}
-
-/* Red gerbera center */
-.flower--2 .flower__white-circle {
-  background-color: #FFD700; /* Yellow center */
-  box-shadow: 0 0 0 1vmin #8B0000; /* Darker red rim */
-}
-
-/* Pink gerbera center */
-.flower--3 .flower__white-circle {
-  background-color: #FFD700; /* Yellow center */
-  box-shadow: 0 0 0 1vmin #C71585; /* Darker pink rim */
-}
-
-/* Making the flower center texture more realistic */
-.flower__white-circle::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 85%;
-  height: 85%;
-  border-radius: 50%;
-  background-image: 
-    radial-gradient(circle, transparent 0%, transparent 30%, rgba(0,0,0,0.2) 60%, transparent 100%),
-    repeating-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0.1) 2px, transparent 2px, transparent 4px);
-}
-
-/* Remove the leafs from the stems as requested */
-.flower__line__leaf {
-  display: none;
-}
-
-/* Make stems more green */
-.flower__line {
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent, rgba(255, 255, 255, 0.2)), 
-                    linear-gradient(to top, transparent 10%, #00A000, #00A000);
-}
