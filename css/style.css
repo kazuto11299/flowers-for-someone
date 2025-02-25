@@ -184,17 +184,14 @@ body {
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5); */
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 8vmin;
-  height: 11vmin;
-  border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #a7ffee;
-  background-image: linear-gradient(to top, #228B22, #32CD32);
-  transform-origin: bottom center;
-  opacity: 0.9;
-  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
+  width: 3vmin; /* Narrower width for a slim, elongated look */
+  height: 14vmin; /* Taller height to extend the petal length */
+  border-top-left-radius: 50% 150%; /* Sharp, pointed tip */
+  border-top-right-radius: 50% 150%; /* Symmetrical pointed tip */
+  border-bottom-left-radius: 0; /* Straight base */
+  border-bottom-right-radius: 0; /* Straight base */
+  transform-origin: bottom center; /* Ensures petals rotate from the base */
+  box-shadow: 0 0 1vmin rgba(0, 0, 0, 0.3); /* Adds subtle depth */
 }
 
 .flower__leaf::before {
@@ -202,10 +199,10 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: inherit; /* Inherits the petal’s background color and gradient */
-  border-top-left-radius: 50% 100%;
-  border-top-right-radius: 50% 100%;
-  transform: rotate(5deg); /* Slight rotation for a natural overlap */
+  background: inherit; /* Inherits the petal's background color and gradient */
+  border-top-left-radius: 50% 150%; /* Matches the main petal's shape */
+  border-top-right-radius: 50% 150%;
+  transform: rotate(10deg) translateX(-1vmin); /* Slight rotation and offset for overlap */
   z-index: -1; /* Places the pseudo-element behind the main petal */
 }
 
