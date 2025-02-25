@@ -191,20 +191,36 @@ body {
 }
 
 .flower__leaf--2 {
-  transform: translate(-50%, -4%) rotateX(40deg);
+  transform: translate(-20%, -4%) rotateX(-25deg);
 }
 
 .flower__leaf--3 {
-  transform: translate(-90%, 0%) rotateY(45deg) rotateX(50deg);
+  transform: translate(-30%, 0%) rotateY(45deg) rotateX(-40deg);
 }
 
 .flower__leaf--4 {
+  transform: translate(-50%, 0%) rotateY(45deg) rotateX(45deg);
+}
+
+.flower__leaf--5 {
+  transform: translate(-70%, 0%) rotateY(45deg) rotateX(50deg);
+}
+
+.flower__leaf--6 {
+  transform: translate(-90%, 0%) rotateY(45deg) rotateX(25deg);
+}
+
+.flower__leaf--7 {
+  transform: translate(-95%, 0%) rotateY(45deg) rotateX(40deg);
+}
+
+.flower__leaf--8 {
   width: 8vmin;
   height: 8vmin;
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-image: linear-gradient(to top, rgba(255, 2555, 255, 0.4), #228B22);
+  background-image: linear-gradient(to top, rgba(255, 2555, 255, 0.4), #fff);
   z-index: 1;
   opacity: 0.8;
   -webkit-transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
