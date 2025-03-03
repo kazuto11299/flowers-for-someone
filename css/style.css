@@ -1252,15 +1252,6 @@ body {
   position: relative; /* Container for absolute positioning */
 }
 
-.flower__leaf--1 { transform: translate(40%, 0%) rotateX(-20deg) rotateY(30deg); }
-.flower__leaf--2 { transform: translate(30%, -10%) rotateX(-20deg) rotateY(15deg); }
-.flower__leaf--3 { transform: translate(20%, -20%) rotateX(-20deg) rotateY(0deg); }
-.flower__leaf--4 { transform: translate(10%, -30%) rotateX(-20deg) rotateY(-15deg); }
-.flower__leaf--5 { transform: translate(-10%, -30%) rotateX(-20deg) rotateY(-30deg); }
-.flower__leaf--6 { transform: translate(-20%, -20%) rotateX(-20deg) rotateY(-45deg); }
-.flower__leaf--7 { transform: translate(-30%, -10%) rotateX(-20deg) rotateY(-60deg); }
-.flower__leaf--8 { transform: translate(-40%, 0%) rotateX(-20deg) rotateY(-75deg); }
-
 .flower__leaf {
   position: absolute;
   width: 10vmin;
@@ -1293,4 +1284,49 @@ body {
   z-index: 2;
 }
 
+.flower__leaf {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 4vmin; /* Narrower for a sleek look */
+  height: 12vmin; /* Taller for elongation */
+  border-top-left-radius: 50% 100%; /* Pointed, rounded tip */
+  border-top-right-radius: 50% 100%; /* Symmetrical pointed tip */
+  border-bottom-left-radius: 0; /* Wider, flat base */
+  border-bottom-right-radius: 0; /* Wider, flat base */
+  transform-origin: bottom center;
+  box-shadow: 0 0 1vmin rgba(0, 0, 0, 0.3); /* Subtle depth */
+}
+
+/* Add pseudo-elements for layering (2 additional petals per main petal) */
+.flower__leaf::before,
+.flower__leaf::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit; /* Inherits petal color */
+  border-radius: inherit;
+  z-index: -1; /* Behind main petal */
+}
+
+.flower__leaf::before {
+  transform: rotateY(10deg) scale(0.9); /* Slight side tilt and scaling for overlap */
+  opacity: 0.8;
+}
+
+.flower__leaf::after {
+  transform: rotateY(-10deg) scale(0.9); /* Opposite side tilt */
+  opacity: 0.8;
+}
+
+/* Position petals for a radial, side-tilted pattern using rotateX and rotateY */
+.flower__leaf--1 { transform: translate(40%, 0%) rotateX(-20deg) rotateY(30deg); }
+.flower__leaf--2 { transform: translate(30%, -10%) rotateX(-20deg) rotateY(15deg); }
+.flower__leaf--3 { transform: translate(20%, -20%) rotateX(-20deg) rotateY(0deg); }
+.flower__leaf--4 { transform: translate(10%, -30%) rotateX(-20deg) rotateY(-15deg); }
+.flower__leaf--5 { transform: translate(-10%, -30%) rotateX(-20deg) rotateY(-30deg); }
+.flower__leaf--6 { transform: translate(-20%, -20%) rotateX(-20deg) rotateY(-45deg); }
+.flower__leaf--7 { transform: translate(-30%, -10%) rotateX(-20deg) rotateY(-60deg); }
+.flower__leaf--8 { transform: translate(-40%, 0%) rotateX(-20deg) rotateY(-75deg); }
 /*# sourceMappingURL=style.css.map */
