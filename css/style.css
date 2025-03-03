@@ -1272,15 +1272,6 @@ body {
   z-index: -1;
 }
 
-.flower__leaf--1 { transform: rotateZ(0deg) translate(50%, 0%) rotateX(-10deg) rotateY(10deg); }
-.flower__leaf--2 { transform: rotateZ(45deg) translate(50%, 0%) rotateX(-10deg) rotateY(10deg); }
-.flower__leaf--3 { transform: rotateZ(90deg) translate(50%, 0%) rotateX(-10deg) rotateY(10deg); }
-.flower__leaf--4 { transform: rotateZ(135deg) translate(50%, 0%) rotateX(-10deg) rotateY(10deg); }
-.flower__leaf--5 { transform: rotateZ(180deg) translate(50%, 0%) rotateX(-10deg) rotateY(10deg); }
-.flower__leaf--6 { transform: rotateZ(225deg) translate(50%, 0%) rotateX(-10deg) rotateY(10deg); }
-.flower__leaf--7 { transform: rotateZ(270deg) translate(50%, 0%) rotateX(-10deg) rotateY(10deg); }
-.flower__leaf--8 { transform: rotateZ(315deg) translate(50%, 0%) rotateX(-10deg) rotateY(10deg); }
-
 .flower__center {
   position: absolute;
   width: 3vmin;
