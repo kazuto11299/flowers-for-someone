@@ -1252,6 +1252,15 @@ body {
   position: relative; /* Container for absolute positioning */
 }
 
+.flower__leaf--1 { transform: translate(40%, 0%) rotateX(-20deg) rotateY(30deg); }
+.flower__leaf--2 { transform: translate(30%, -10%) rotateX(-20deg) rotateY(15deg); }
+.flower__leaf--3 { transform: translate(20%, -20%) rotateX(-20deg) rotateY(0deg); }
+.flower__leaf--4 { transform: translate(10%, -30%) rotateX(-20deg) rotateY(-15deg); }
+.flower__leaf--5 { transform: translate(-10%, -30%) rotateX(-20deg) rotateY(-30deg); }
+.flower__leaf--6 { transform: translate(-20%, -20%) rotateX(-20deg) rotateY(-45deg); }
+.flower__leaf--7 { transform: translate(-30%, -10%) rotateX(-20deg) rotateY(-60deg); }
+.flower__leaf--8 { transform: translate(-40%, 0%) rotateX(-20deg) rotateY(-75deg); }
+
 .flower__leaf {
   position: absolute;
   width: 10vmin;
