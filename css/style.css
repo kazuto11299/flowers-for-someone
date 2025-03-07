@@ -219,14 +219,14 @@ body {
   height: 8vmin;
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
-  transform: translate(-95%, -10%) rotateX(70deg) rotate(90deg);
+  transform: translate(-95%, -10%) rotateX(120deg) rotate(90deg);
   background-image: linear-gradient(to top, rgba(255, 2555, 255, 0.4), #fff);
   z-index: 1;
   opacity: 0.8;
-  -webkit-transform: translate(-95%, -10%) rotateX(70deg) rotate(90deg);
-  -moz-transform: translate(-95%, -10%) rotateX(70deg) rotate(90deg);
-  -ms-transform: translate(-95%, -10%) rotateX(70deg) rotate(90deg);
-  -o-transform: translate(-95%, -10%) rotateX(70deg) rotate(90deg);
+  -webkit-transform: translate(-95%, -10%) rotateX(120deg) rotate(90deg);
+  -moz-transform: translate(-95%, -10%) rotateX(120deg) rotate(90deg);
+  -ms-transform: translate(-95%, -10%) rotateX(120deg) rotate(90deg);
+  -o-transform: translate(-95%, -10%) rotateX(120deg) rotate(90deg);
 }
 
 .flower__leaf--8 {
