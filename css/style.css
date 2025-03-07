@@ -203,11 +203,11 @@ body {
 }
 
 .flower__leaf--5 {
-  transform: translate(-70%, 0%) rotateY(45deg) rotateX(50deg);
+  transform: translate(-70%, 0%) rotateY(45deg) rotateX(40deg);
 }
 
 .flower__leaf--6 {
-  transform: translate(-90%, 0%) rotateY(45deg) rotateX(25deg);
+  transform: translate(-90%, 0%) rotateY(45deg) rotateX(50deg);
 }
 /*
 .flower__leaf--7 {
