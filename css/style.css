@@ -1243,13 +1243,13 @@ body {
 }
 
 
-/* Hide all leaves and grass elements */
+/* Hide all leaves and grass elements
 .flower__line__leaf {
   display: none;
 }
 
 .flower--yellow {
-  position: relative; /* Container for absolute positioning */
+  position: relative; 
 }
 
 .flower__leaf {
