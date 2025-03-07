@@ -199,7 +199,7 @@ body {
 }
 
 .flower__leaf--4 {
-  transform: translate(-50%, 0%) rotateY(45deg) rotateX(45deg);
+  transform: translate(-50%, 0%) rotateY(45deg) rotateX(20deg);
 }
 
 .flower__leaf--5 {
@@ -211,7 +211,7 @@ body {
 }
 
 .flower__leaf--7 {
-  transform: translate(-110%, 0%) rotateY(45deg) rotateX(40deg);
+  transform: translate(-95%, 0%) rotateY(45deg) rotateX(40deg);
 }
 
 .flower__leaf--8 {
