@@ -1321,12 +1321,28 @@ body {
 }
 
 /* Position petals for a radial, side-tilted pattern using rotateX and rotateY */
-.flower__leaf--1 { transform: translate(40%, 0%) rotateX(-20deg) rotateY(30deg); }
-.flower__leaf--2 { transform: translate(30%, -10%) rotateX(-20deg) rotateY(15deg); }
-.flower__leaf--3 { transform: translate(20%, -20%) rotateX(-20deg) rotateY(0deg); }
-.flower__leaf--4 { transform: translate(10%, -30%) rotateX(-20deg) rotateY(-15deg); }
-.flower__leaf--5 { transform: translate(-10%, -30%) rotateX(-20deg) rotateY(-30deg); }
-.flower__leaf--6 { transform: translate(-20%, -20%) rotateX(-20deg) rotateY(-45deg); }
-.flower__leaf--7 { transform: translate(-30%, -10%) rotateX(-20deg) rotateY(-60deg); }
-.flower__leaf--8 { transform: translate(-40%, 0%) rotateX(-20deg) rotateY(-75deg); }
+/* Base flower leaf style adjustments for side view */
+.flower__leaf {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 4vmin;
+  height: 15vmin; /* Slightly longer petals */
+  border-top-left-radius: 40% 60%; /* Less pointed tips */
+  border-top-right-radius: 40% 60%;
+  border-bottom-left-radius: 10% 10%; /* Slightly rounded base */
+  border-bottom-right-radius: 10% 10%;
+  transform-origin: bottom center;
+  box-shadow: 0 0 0.5vmin rgba(0, 0, 0, 0.2); /* Lighter shadow */
+}
+
+/* Position petals for a side view with upward orientation */
+.flower__leaf--1 { transform: translate(-50%, 0%) rotate(70deg) rotateY(10deg); }
+.flower__leaf--2 { transform: translate(-50%, 0%) rotate(50deg) rotateY(15deg); }
+.flower__leaf--3 { transform: translate(-50%, 0%) rotate(30deg) rotateY(20deg); }
+.flower__leaf--4 { transform: translate(-50%, 0%) rotate(10deg) rotateY(25deg); }
+.flower__leaf--5 { transform: translate(-50%, 0%) rotate(-10deg) rotateY(25deg); }
+.flower__leaf--6 { transform: translate(-50%, 0%) rotate(-30deg) rotateY(20deg); }
+.flower__leaf--7 { transform: translate(-50%, 0%) rotate(-50deg) rotateY(15deg); }
+.flower__leaf--8 { transform: translate(-50%, 0%) rotate(-70deg) rotateY(10deg); }
 /*# sourceMappingURL=style.css.map */
