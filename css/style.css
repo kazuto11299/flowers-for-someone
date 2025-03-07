@@ -1320,15 +1320,4 @@ body {
   opacity: 0.8;
 }
 
-/* Position petals for a radial, side-tilted pattern using rotateX and rotateY */
-/* Base flower leaf style adjustments for side view */
-/* Position petals for a side view with upward orientation */
-.flower__leaf--1 { transform: translate(-50%, 0%) rotate(70deg) rotateY(10deg); }
-.flower__leaf--2 { transform: translate(-50%, 0%) rotate(50deg) rotateY(15deg); }
-.flower__leaf--3 { transform: translate(-50%, 0%) rotate(30deg) rotateY(20deg); }
-.flower__leaf--4 { transform: translate(-50%, 0%) rotate(10deg) rotateY(25deg); }
-.flower__leaf--5 { transform: translate(-50%, 0%) rotate(-10deg) rotateY(25deg); }
-.flower__leaf--6 { transform: translate(-50%, 0%) rotate(-30deg) rotateY(20deg); }
-.flower__leaf--7 { transform: translate(-50%, 0%) rotate(-50deg) rotateY(15deg); }
-.flower__leaf--8 { transform: translate(-50%, 0%) rotate(-70deg) rotateY(10deg); }
 /*# sourceMappingURL=style.css.map */
